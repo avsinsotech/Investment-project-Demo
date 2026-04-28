@@ -1,0 +1,1 @@
+<!DOCTYPE html> <html> <head> <title>Investment App</title> </head> <body> <h1>Investment Dashboard</h1> <button onclick="loadData()">Load Data</button> <script> function loadData(){ fetch("http://localhost:5000") .then(res=>res.text()) .then(data=>alert(data)) } </script> </body> </html> 
